@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-100 flex justify-between items-center px-4 sm:px-6 md:px-8 py-3 sm:py-4 bg-[#17151E] border-b border-[#1e1f22]">
       <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
         <div className="flex items-center gap-2 text-lg sm:text-xl font-semibold text-white cursor-pointer" onClick={() => navigate('/')}>
-          <img src="/src/assets/fire-logo.png" alt="Okibi Logo" className="w-4 h-6 sm:w-5 sm:h-7" />
+          {/* <img src="https://okibi.ai/src/assets/fire-logo.png" alt="Agentmint Logo" className="w-4 h-6 sm:w-5 sm:h-7" /> */}
           <span>Agentmint</span>
         </div>
         <button className="hidden md:block px-5 py-1 bg-[#33201E] text-white border-[0.1px] border-gray-600 rounded-xl text-base font-normal hover:border-amber-600 transition-colors">
