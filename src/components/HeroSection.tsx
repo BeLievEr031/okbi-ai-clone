@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import FireLogo from "../assets/fire-logo.png"
 const HeroSection: React.FC = () => {
   const [message, setMessage] = useState('');
 
@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
 
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4 leading-tight flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
         <span>AI Agents in minutes</span>
-        <img src="/src/assets/fire-logo.png" alt="Fire" className="w-10 h-12 sm:w-12 sm:h-14 md:w-14 md:h-16 inline-block animate-pulse" />
+        <img src={FireLogo} alt="Fire" className="w-10 h-12 sm:w-12 sm:h-14 md:w-14 md:h-16 inline-block animate-pulse" />
       </h1>
 
       <p className="text-base sm:text-lg text-[#b5bac1] mb-8 sm:mb-10 md:mb-12 max-w-[90%] sm:max-w-[500px] md:max-w-[600px] px-4">
