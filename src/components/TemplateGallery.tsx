@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 interface Template {
   id: number;
@@ -71,12 +70,12 @@ const TemplateGallery: React.FC = () => {
       <footer className="flex flex-col md:flex-row justify-between items-center px-4 pt-6 sm:pt-8 mt-4 sm:mt-5 max-w-[1400px] mx-auto gap-4 md:gap-0 text-center md:text-left border-t border-[#3a3845]">
         <p className="text-xs sm:text-sm text-[#6d6f78]">© 2025 Agentmint. All rights reserved.</p>
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
-          <Link to="/terms" className="text-xs sm:text-sm text-[#b5bac1] hover:text-white transition-colors">
+          {/* <Link to="/terms" className="text-xs sm:text-sm text-[#b5bac1] hover:text-white transition-colors">
             Terms
           </Link>
           <Link to="/privacy" className="text-xs sm:text-sm text-[#b5bac1] hover:text-white transition-colors">
             Privacy
-          </Link>
+          </Link> */}
           <a href="#" className="text-xs sm:text-sm text-[#b5bac1] hover:text-white transition-colors">
             Support
           </a>
